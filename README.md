@@ -16,16 +16,16 @@ Number of x and y in arrays should be equal in each DataSet for one graph.
 
 
 # Settings for graphs:
-    graphLinesColor
-    textColor
-    linesWidth
-    staticLinesWidth
-    isYLabelsVisible
-    isXLabelsVisible
-    buttonsAreVisible
-    sliderIsVisible
-    yLabelFont
-    xLabelFont
+    graphLinesColor - color of static lines
+    textColor - color of labels for Y and X
+    linesWidth - width of  non-static lines
+    staticLinesWidth -  width of static lines
+    isYLabelsVisible - bool to hide Y lables
+    isXLabelsVisible  - bool to hide X lables
+    buttonsAreVisible - bool to hide buttons under graph
+    sliderIsVisible - bool to hide slider under graph 
+    yLabelFont - font for Y labels
+    xLabelFont  - font for X labels
     
 # How to use: 
 
@@ -33,17 +33,10 @@ Use  GraphView convinience init and set it with [DataSet]
 
 Example: 
 ```
-  func setTestGraph()  {
         guard let chartData = self.chartData else { return }
         let testGraph = GraphView(graphData: chartData)
         self.view.addSubview(testGraph)
-        testGraph.backgroundColor = .white
-        testGraph.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            testGraph.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -100),
-            testGraph.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 300),
-            testGraph.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 0),
-            testGraph.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: 0)
-            ])
-    }
+       
  ```
+ 
+ 
