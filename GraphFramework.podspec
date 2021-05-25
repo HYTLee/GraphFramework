@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = 'https://github.com/HYTLee/GraphFramework'
   spec.license      = 'MIT' 
-  spec.authors      = 'Hramiashkevich Yauheni' => 'hytl71@gmail.com'
-  spec.source       =  :git => 'https://github.com/HYTLee/GraphFramework.git'
+  spec.authors      = { 'Hramiashkevich Yauheni' => 'hytl71@gmail.com' }
+  spec.source       = { :git => 'https://github.com/HYTLee/GraphFramework.git' }
   spec.source_files = 'GraphFramework'
 end
