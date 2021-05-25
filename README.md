@@ -11,9 +11,6 @@ public struct DataSet {
 }
 ```
 Number of x and y in arrays should be equal in each DataSet for one graph.
-# Add library to project: 
-
-
 
 # Settings for graphs:
     graphLinesColor - color of static lines
@@ -38,5 +35,7 @@ Example:
         self.view.addSubview(testGraph)
        
  ```
+ 
+ 
  
  
