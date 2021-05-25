@@ -12,6 +12,9 @@ public struct DataSet {
 ```
 Number of x and y in arrays should be equal in each DataSet for one graph.
 
+# How to install: 
+    Download framework and import it to project manually 
+
 # Settings for graphs:
     graphLinesColor - color of static lines
     textColor - color of labels for Y and X
