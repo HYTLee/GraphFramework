@@ -10,17 +10,6 @@
 		80E83CDD265DA08B00C408A3 /* GraphFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E83CD3265DA08B00C408A3 /* GraphFramework.framework */; };
 		80E83CE2265DA08B00C408A3 /* GraphFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CE1265DA08B00C408A3 /* GraphFrameworkTests.swift */; };
 		80E83CE4265DA08B00C408A3 /* GraphFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E83CD6265DA08B00C408A3 /* GraphFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80E83D00265DA0A000C408A3 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CF1265DA09F00C408A3 /* Column.swift */; };
-		80E83D01265DA0A000C408A3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CF2265DA09F00C408A3 /* Response.swift */; };
-		80E83D02265DA0A000C408A3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CF3265DA09F00C408A3 /* Settings.swift */; };
-		80E83D03265DA0A000C408A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E83CF5265DA09F00C408A3 /* Assets.xcassets */; };
-		80E83D04265DA0A000C408A3 /* chartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 80E83CF6265DA09F00C408A3 /* chartData.json */; };
-		80E83D05265DA0A000C408A3 /* JsonDecodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CF8265DA0A000C408A3 /* JsonDecodeManager.swift */; };
-		80E83D06265DA0A000C408A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E83CF9265DA0A000C408A3 /* LaunchScreen.storyboard */; };
-		80E83D07265DA0A000C408A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E83CFB265DA0A000C408A3 /* Main.storyboard */; };
-		80E83D08265DA0A000C408A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CFD265DA0A000C408A3 /* AppDelegate.swift */; };
-		80E83D09265DA0A000C408A3 /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CFE265DA0A000C408A3 /* GraphsViewController.swift */; };
-		80E83D0A265DA0A000C408A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83CFF265DA0A000C408A3 /* SceneDelegate.swift */; };
 		80E83D1D265DA0A800C408A3 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83D11265DA0A800C408A3 /* GraphView.swift */; };
 		80E83D1E265DA0A800C408A3 /* TwoButtonsSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83D13265DA0A800C408A3 /* TwoButtonsSlider.swift */; };
 		80E83D1F265DA0A800C408A3 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E83D14265DA0A800C408A3 /* UIColor+Extention.swift */; };
@@ -48,17 +37,6 @@
 		80E83CDC265DA08B00C408A3 /* GraphFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E83CE1265DA08B00C408A3 /* GraphFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphFrameworkTests.swift; sourceTree = "<group>"; };
 		80E83CE3265DA08B00C408A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80E83CF1265DA09F00C408A3 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
-		80E83CF2265DA09F00C408A3 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		80E83CF3265DA09F00C408A3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		80E83CF5265DA09F00C408A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80E83CF6265DA09F00C408A3 /* chartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chartData.json; sourceTree = "<group>"; };
-		80E83CF8265DA0A000C408A3 /* JsonDecodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDecodeManager.swift; sourceTree = "<group>"; };
-		80E83CFA265DA0A000C408A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80E83CFC265DA0A000C408A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80E83CFD265DA0A000C408A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80E83CFE265DA0A000C408A3 /* GraphsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
-		80E83CFF265DA0A000C408A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80E83D11265DA0A800C408A3 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		80E83D13265DA0A800C408A3 /* TwoButtonsSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoButtonsSlider.swift; sourceTree = "<group>"; };
 		80E83D14265DA0A800C408A3 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
@@ -110,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				80E83D0F265DA0A800C408A3 /* Source */,
-				80E83CEF265DA09F00C408A3 /* Example */,
 				80E83D25265DA0AF00C408A3 /* README.md */,
 				80E83CD6265DA08B00C408A3 /* GraphFramework.h */,
 				80E83CD7265DA08B00C408A3 /* Info.plist */,
@@ -125,48 +102,6 @@
 				80E83CE3265DA08B00C408A3 /* Info.plist */,
 			);
 			path = GraphFrameworkTests;
-			sourceTree = "<group>";
-		};
-		80E83CEF265DA09F00C408A3 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				80E83CF0265DA09F00C408A3 /* TestData */,
-				80E83CF4265DA09F00C408A3 /* Resources */,
-				80E83CF7265DA09F00C408A3 /* CodingManager */,
-				80E83CF9265DA0A000C408A3 /* LaunchScreen.storyboard */,
-				80E83CFB265DA0A000C408A3 /* Main.storyboard */,
-				80E83CFD265DA0A000C408A3 /* AppDelegate.swift */,
-				80E83CFE265DA0A000C408A3 /* GraphsViewController.swift */,
-				80E83CFF265DA0A000C408A3 /* SceneDelegate.swift */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		80E83CF0265DA09F00C408A3 /* TestData */ = {
-			isa = PBXGroup;
-			children = (
-				80E83CF1265DA09F00C408A3 /* Column.swift */,
-				80E83CF2265DA09F00C408A3 /* Response.swift */,
-				80E83CF3265DA09F00C408A3 /* Settings.swift */,
-			);
-			path = TestData;
-			sourceTree = "<group>";
-		};
-		80E83CF4265DA09F00C408A3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				80E83CF5265DA09F00C408A3 /* Assets.xcassets */,
-				80E83CF6265DA09F00C408A3 /* chartData.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		80E83CF7265DA09F00C408A3 /* CodingManager */ = {
-			isa = PBXGroup;
-			children = (
-				80E83CF8265DA0A000C408A3 /* JsonDecodeManager.swift */,
-			);
-			path = CodingManager;
 			sourceTree = "<group>";
 		};
 		80E83D0F265DA0A800C408A3 /* Source */ = {
@@ -329,11 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E83D06265DA0A000C408A3 /* LaunchScreen.storyboard in Resources */,
-				80E83D04265DA0A000C408A3 /* chartData.json in Resources */,
 				80E83D26265DA0AF00C408A3 /* README.md in Resources */,
-				80E83D03265DA0A000C408A3 /* Assets.xcassets in Resources */,
-				80E83D07265DA0A000C408A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,17 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E83D02265DA0A000C408A3 /* Settings.swift in Sources */,
 				80E83D22265DA0A800C408A3 /* InitialGraphModel.swift in Sources */,
-				80E83D0A265DA0A000C408A3 /* SceneDelegate.swift in Sources */,
 				80E83D1F265DA0A800C408A3 /* UIColor+Extention.swift in Sources */,
-				80E83D09265DA0A000C408A3 /* GraphsViewController.swift in Sources */,
-				80E83D01265DA0A000C408A3 /* Response.swift in Sources */,
-				80E83D00265DA0A000C408A3 /* Column.swift in Sources */,
 				80E83D21265DA0A800C408A3 /* DataSet.swift in Sources */,
 				80E83D20265DA0A800C408A3 /* DateFormatter+Extention.swift in Sources */,
-				80E83D08265DA0A000C408A3 /* AppDelegate.swift in Sources */,
-				80E83D05265DA0A000C408A3 /* JsonDecodeManager.swift in Sources */,
 				80E83D1E265DA0A800C408A3 /* TwoButtonsSlider.swift in Sources */,
 				80E83D1D265DA0A800C408A3 /* GraphView.swift in Sources */,
 			);
@@ -384,25 +308,6 @@
 			targetProxy = 80E83CDE265DA08B00C408A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		80E83CF9265DA0A000C408A3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80E83CFA265DA0A000C408A3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		80E83CFB265DA0A000C408A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80E83CFC265DA0A000C408A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		80E83CE5265DA08B00C408A3 /* Debug */ = {
