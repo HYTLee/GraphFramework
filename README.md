@@ -33,13 +33,18 @@ Number of x and y in arrays should be equal in each DataSet for one graph.
 Use  GraphView convinience init and set it with [DataSet]
 
 Example: 
+Add GrahpView with data 
 ```
         guard let chartData = self.chartData else { return }
         let testGraph = GraphView(graphData: chartData)
         self.view.addSubview(testGraph)
        
  ```
- 
+ Change graph settings 
+ ```
+        testGraph.graphLinesColor = .blue
+        testGraph.isXLabelsVisible = false
+ ```
  
  
  
