@@ -14,6 +14,7 @@ Number of x and y in arrays should be equal in each DataSet for one graph.
 
 # How to install: 
     Download framework and import it to project manually 
+    Example project for importing https://github.com/HYTLee/GraphFrameworkUsageExample
 
 # Settings for graphs:
     graphLinesColor - color of static lines
