@@ -136,7 +136,7 @@ private extension GraphView {
         for number in 1...numberOfLabels {
             let multiplier = Double(datePercentage * number) / 100
             let xForLabel: Int = Int(multiplier * Double(numberOfXs))
-            guard let value = drawingGraphData?.dataSets[0].x[xForLabel] else { return ["Unknown"] }
+            guard let value = drawingGraphData?.dataSets[0].x[xForLabel - 1] else { return ["Unknown"] }
             let date = value.formated(format: "MMM dd")
             xValues.append(date)
         }
