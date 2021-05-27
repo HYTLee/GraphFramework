@@ -13,8 +13,8 @@ public struct DataSet {
 Number of x and y in arrays should be equal in each DataSet for one graph.
 
 # How to install: 
-    Download framework and import it to project manually 
-    Example project for importing https://github.com/HYTLee/GraphFrameworkUsageExample
+    add to podfile "pod 'GraphFramework', :git => 'https://github.com/HYTLee/GraphFramework.git'"
+    to run example - download framework and do "pod install"
 
 # Settings for graphs:
     graphLinesColor - color of static lines
