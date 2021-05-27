@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.author       = { "Yauheni Hramiashkevich" => "yauheni.hramiashkevich@apalon.com" }
   spec.platform     = :ios, "14.4"
   spec.source       = {	:git => "https://github.com/HYTLee/GraphFramework.git", :tag => "1.0.0" }
-  spec.source_files = "GraphFramework/Source/*.swift"
+  spec.source_files = "GraphFramework/*"
 end
