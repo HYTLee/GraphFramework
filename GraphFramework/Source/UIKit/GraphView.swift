@@ -394,7 +394,7 @@ private extension GraphView {
 private extension GraphView {
 
     func addXLineSlider(graphHeight: CGFloat) {
-        slider.frame = CGRect(x: 10 , y: graphHeight + 80, width: self.frame.width - 20, height: 35)
+        slider.frame = CGRect(x: 0 , y: graphHeight + 80, width: self.frame.width, height: 35)
         self.addSubview(slider)
         slider.addTarget(self, action: #selector(onSliderValChanged(slider:event:)), for: [.touchUpInside, .touchUpOutside])
     }
