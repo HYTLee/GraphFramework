@@ -7,8 +7,9 @@ target 'GraphFramework' do
 
   # Pods for GraphFramework
 
-  target 'GraphFrameworkTests' do
+  target 'Example' do
     # Pods for testing
+pod 'GraphFramework', :git => 'https://github.com/HYTLee/GraphFramework.git'
   end
 
 end

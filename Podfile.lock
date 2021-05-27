@@ -1,0 +1,21 @@
+PODS:
+  - GraphFramework (1.0.0)
+
+DEPENDENCIES:
+  - GraphFramework (from `https://github.com/HYTLee/GraphFramework.git`)
+
+EXTERNAL SOURCES:
+  GraphFramework:
+    :git: https://github.com/HYTLee/GraphFramework.git
+
+CHECKOUT OPTIONS:
+  GraphFramework:
+    :commit: 5f309e8e29270c6e06655586e6357a429dd373eb
+    :git: https://github.com/HYTLee/GraphFramework.git
+
+SPEC CHECKSUMS:
+  GraphFramework: ee701f7230d869fec53568565276c59f0b2936ab
+
+PODFILE CHECKSUM: 0716154d80a9048039d273631186a0f510b29263
+
+COCOAPODS: 1.10.1
