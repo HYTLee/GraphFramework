@@ -22,6 +22,7 @@
 		808E5289265FA70900FEB476 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E5286265FA70900FEB476 /* Column.swift */; };
 		808E528A265FA70900FEB476 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E5287265FA70900FEB476 /* Response.swift */; };
 		808E528B265FA70900FEB476 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E5288265FA70900FEB476 /* Settings.swift */; };
+		808E530B265FB65D00FEB476 /* SliderTrackingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E530A265FB65D00FEB476 /* SliderTrackingLayer.swift */; };
 		80D6DA88265DB16500A246D4 /* GraphFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D6DA7E265DB16500A246D4 /* GraphFramework.framework */; };
 		80D6DA8D265DB16500A246D4 /* GraphFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6DA8C265DB16500A246D4 /* GraphFrameworkTests.swift */; };
 		80D6DA8F265DB16500A246D4 /* GraphFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D6DA81265DB16500A246D4 /* GraphFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -85,6 +86,7 @@
 		808E5286265FA70900FEB476 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
 		808E5287265FA70900FEB476 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		808E5288265FA70900FEB476 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		808E530A265FB65D00FEB476 /* SliderTrackingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTrackingLayer.swift; sourceTree = "<group>"; };
 		80D6DA7E265DB16500A246D4 /* GraphFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GraphFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D6DA81265DB16500A246D4 /* GraphFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphFramework.h; sourceTree = "<group>"; };
 		80D6DA82265DB16500A246D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 		80D6DA9D265DB17700A246D4 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				808E530A265FB65D00FEB476 /* SliderTrackingLayer.swift */,
 				80D6DA9E265DB17700A246D4 /* TwoButtonsSlider.swift */,
 			);
 			path = Slider;
@@ -646,6 +649,7 @@
 			files = (
 				80D6DAAA265DB17700A246D4 /* UIColor+Extention.swift in Sources */,
 				80D6DAAC265DB17700A246D4 /* DataSet.swift in Sources */,
+				808E530B265FB65D00FEB476 /* SliderTrackingLayer.swift in Sources */,
 				80D6DAA8265DB17700A246D4 /* GraphView.swift in Sources */,
 				80D6DAA9265DB17700A246D4 /* TwoButtonsSlider.swift in Sources */,
 				80D6DAAB265DB17700A246D4 /* DateFormatter+Extention.swift in Sources */,
